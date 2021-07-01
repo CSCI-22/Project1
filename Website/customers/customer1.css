@@ -1,0 +1,55 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.caption {
+  margin: 2rem;
+}
+
+.fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 3rem;
+}
+
+.details {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.data-name {
+  padding: 2rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.data-transactions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.data-transactions :nth-child(1) {
+  grid-column: 1 / span 2;
+}
+
+.date {
+  font-size: 1.5rem;
+  font-weight: normal;
+}

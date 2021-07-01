@@ -1,5 +1,6 @@
 body {
   margin: 0 auto;
+  background-color: #faf9f9;
 }
 
 nav {
@@ -46,5 +47,5 @@ footer {
 }
 
 .item {
-    margin: 1rem;
+  margin: 1rem;
 }

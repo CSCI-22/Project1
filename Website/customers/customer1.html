@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="customer1.css">
     <title>Customer 1</title>
 </head>
+
 <body>
-    
+    <!-- header starts here -->
+    <nav>
+        <ul>
+            <li><a href="../index.html" class="">Home</a></li>
+            <li><a href="./customers/customers.html" class="">Customers</a></li>
+            <li><a href="../foods/foods.html" class="">Foods</a></li>
+            <li><a href="../customers/customers.html" class="">Orders</a></li>
+        </ul>
+        <a href="../signin.html" class="signin">Sign-in</a>
+    </nav>
+
+    <!-- main content here -->
+    <main>
+        <div class="text">
+            <h1 class='caption'>Customers</h1>
+            <a href="addcustomer.html">+ Add Customer</a>
+        </div>
+        <br>
+
+        <!-- dummy customer details here, div for layout purposes -->
+        <div class="fields">
+            <div class="data-name">
+                <h1 class='name'>Juan Dela Cruz</p>
+                    <p class='details'>Blk. 6 Lot 9, Fighter Street Quezon City, Manila</p>
+                    <p class="details">juan.delacruz@obf.ateneo.edu</p>
+                    <p class='details'>09123456789</p>
+                    <a href="editcustomer1.html" class='info'>Edit Details</a>
+                    <button>Delete</button>
+            </div>
+
+            <div class="data-transactions">
+                <h1 class='transaction-details'>Order Transactions</h1>
+                <div class="order-no">
+                    <p class='details'>Order #</p>
+                    <p class='details'>#0000011</p>
+                    <p class='details'>#0000012</p>
+                </div>
+                <div class="order-date">
+                    <p class='date'>Order Date</p>
+                    <p class='date'>03/25/2021</p>
+                    <p class='date'>06/30/2021</p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
