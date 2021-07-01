@@ -1,0 +1,29 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.caption {
+  margin: 2rem;
+}
+
+.fields {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.details,
+.info {
+  margin: 1rem;
+}
